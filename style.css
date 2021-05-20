@@ -1,12 +1,28 @@
 .visual{
     z-index:-30;
-    height:25rem;
+    height:35rem;
     background: linear-gradient(180deg, #21252980 0%, #212529 0% 9%, rgba(138,174,217,0) 74%, rgba(37,47,58,0.48503151260504207) 93%, #212529 100%),
     url("/banner.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 30%;
 }
+
+.title-container{
+    background:rgba(0, 0, 0, 0.494)
+}
+
+@media only screen and (max-width: 600px) {
+    .visual{
+        z-index:-30;
+        height:25rem;
+        background: linear-gradient(180deg, #21252980 0%, #212529 0% 9%, rgba(138,174,217,0) 74%, rgba(37,47,58,0.48503151260504207) 93%, #212529 100%),
+        url("/banner.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+  }
 
 .navbar{
     background: rgba(0, 0, 0, 0.857);
@@ -19,15 +35,27 @@
     height: .1em;
 }
 
+.contact-box{
+    width:300px;
+}
+
 #about{
     height:24rem;
-    
 }
 
 #projects{
     height:10rem;
     background: linear-gradient(180deg, #21252980 0%, #212529 0% 9%, rgba(138,174,217,0) 74%, rgba(37,47,58,0.48503151260504207) 93%, #212529 100%),
     url("/banner.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 90%;
+}
+
+#contact{
+    height:10rem;
+    background: linear-gradient(180deg, #21252980 0%, #212529 0% 9%, rgba(138,174,217,0) 74%, rgba(37,47,58,0.48503151260504207) 93%, #212529 100%),
+    url("code.webp");
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 90%;
