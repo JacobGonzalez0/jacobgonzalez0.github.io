@@ -1,0 +1,34 @@
+.visual{
+    z-index:-30;
+    height:25rem;
+    background: linear-gradient(180deg, #21252980 0%, #212529 0% 9%, rgba(138,174,217,0) 74%, rgba(37,47,58,0.48503151260504207) 93%, #212529 100%),
+    url("/banner.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0.857);
+    z-index:200;
+}
+
+.underline{
+    background-color: #5c5c5c;
+    width:5em;
+    height: .1em;
+}
+
+#about{
+    height:24rem;
+    
+}
+
+#projects{
+    height:10rem;
+    background: linear-gradient(180deg, #21252980 0%, #212529 0% 9%, rgba(138,174,217,0) 74%, rgba(37,47,58,0.48503151260504207) 93%, #212529 100%),
+    url("/banner.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 90%;
+}
